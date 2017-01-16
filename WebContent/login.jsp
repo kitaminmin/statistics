@@ -15,22 +15,16 @@
 		<s:form>
 			<div class="sform">
 				<div class="form-item">
-					<s:textfield name="account" placeholder="Account"
-						required="required"
+
+					<label for="account"></label> <input type="text" name="account"
+						required="required" placeholder="Account" required="required"
 						pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" />
-					<label for="account"></label>
-					<!-- <input type="email" name="account"
-					required="required" placeholder="Account"></input>
-			 -->
+
 				</div>
 				<div class="form-item">
-					<label for="password"></label>
-					<s:password name="password"
-						placeholder="%{getText('lang.adminLogin.password')}"
+					<label for="password"></label> <input type="password"
+						name="password" required="required" placeholder="Password"
 						required="required" maxlength="16" pattern="^([a-zA-Z0-9]{8,})+$" />
-					<!-- <input type="password" name="password" required="required"
-					placeholder="Password"></input>
-			 -->
 				</div>
 				<div class="button-panel">
 					<input type="submit" class="button" title="Sign In" value="Sign In"></input>
