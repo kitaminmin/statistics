@@ -16,14 +16,14 @@
 			<div class="sform">
 				<div class="form-item">
 
-					<label for="account"></label> <input type="text" name="account"
-						required="required" placeholder="Account" required="required"
+					<label for="email"></label> <input type="text" name="email"
+						required="required" placeholder="E-MAIL" required="required"
 						pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" />
 
 				</div>
 				<div class="form-item">
 					<label for="password"></label> <input type="password"
-						name="password" required="required" placeholder="Password"
+						name="password" required="required" placeholder="PASSWORD"
 						required="required" maxlength="16" pattern="^([a-zA-Z0-9]{8,})+$" />
 				</div>
 				<div class="button-panel">
